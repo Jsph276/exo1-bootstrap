@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css"/>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap Icons -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+        <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon" />
+        <meta name="description" content=""/>
+        <meta name="keywords" content="portfolio, développeur web, projets web, compétences, HTML, CSS, JavaScript, création de site, développement web, web design, intégration, front-end, back-end, programmation, site internet, expérience professionnelle"/>
+
+        <meta property="og:title" content="Mon portfolio de developpeur web"/>
+        <meta property="og:description" content="Découvrez mes projets et compétences en développement web."/>
+        <meta property="og:image" content="img/logo.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content=" https://jsph276.github.io/exo-html/index.html"/>
+
+        <meta name="robots" content="index, follow" />
+    </head>
+
+    <body>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div class="logon">
+                    <img src="image/logo.jpg" width="80" class="rounded-circle" alt="">
+                    <span class="badge text-bg-light">SAVEURS D'ÉBÈNE</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#"> 
+                                <i class="bi bi-house-door"></i> ACCUEIL
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu"> 
+                                <i class="bi bi-menu-up"></i> MENU
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">
+                                <i class="bi bi-info-circle"></i> À PROPOS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">
+                                <i class="bi bi-telephone"></i> CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--main-->
+        <main>
+
+            <!--section hero-->
+            <section id="hero" class="hero">
+                <div class="container">
+                    <h1 class="playwrite display-4">BIENVENUE CHEZ SAVEURS D'ÉBÈNE</h1>
+                    <p class="lead">Votre expert en délices culinaires</p>
+                    <a href="#menu" class="btn">Découvrez notre menu</a>
+                    <a href="#contact" class="btn">Contactez-nous</a>
+                </div>
+            </section>
+
+            <!-- Section Menu -->
+            <section id="menu" class="py-5">
+                <div class="container">
+                    <h2 class="section-title">Notre Menu</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card menu-card">
+                                <div class="card-img-top">
+                                    Image du plat 1 à insérer ici
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Plat Signature</h5>
+                                    <p class="card-text">Description délicieuse de notre plat phare préparé avec des ingrédients frais et de qualité.</p>
+                                    <span class="price">25€</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card menu-card">
+                                <div class="card-img-top">
+                                    Image du plat 2 à insérer ici
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Spécialité Maison</h5>
+                                    <p class="card-text">Une création unique de notre chef, alliant tradition et innovation pour une expérience gustative inoubliable.</p>
+                            <span class="price">22€</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <div class="card-img-top">
+                            Image du plat 3 à insérer ici
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Délice du Jour</h5>
+                            <p class="card-text">Notre suggestion quotidienne préparée avec les meilleurs produits de saison sélectionnés ce matin.</p>
+                            <span class="price">18€</span>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section À propos -->
+            <section id="about" class="about-section">
+                <div class="container">
+                    <h2 class="section-title">À Propos de Nous</h2><br>
+                    <div class="row align-items-center mt-lg-1 mb-lg-3">
+                        <div class="col-md-4">
+                            <div class="about-image">
+                                <img src="image/about.jpg" class="img-fluid rounded-4 shadow" alt="À propos de nous">
+                            </div>
+                        </div>
+                        <div class="col-md-8 ">
+                            <h3 class="mb-4" style="color: var(--primary-color);">Notre Histoire</h3>
+                            <p class="lead">Depuis plus de 20 ans, Restaurant Saveurs vous accueille dans un cadre chaleureux et authentique. Notre passion pour la gastronomie et l'accueil à la française fait de chaque repas un moment d'exception.</p>
+                            <p>Notre chef et son équipe sélectionnent chaque jour les meilleurs produits locaux pour vous proposer une cuisine créative qui respecte les traditions tout en innovant. Nous croyons que la gastronomie est un art qui se partage et qui rassemble.</p>
+                            <p>Venez découvrir notre univers culinaire dans une ambiance conviviale où chaque détail est pensé pour votre plaisir.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Contact -->
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <h2 class="section-title text-white">Contactez-nous</h2>
+                    <div class="row">
+                        <div class="col-md-8 mx-auto">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Votre nom complet" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="Votre e-mail" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <textarea class="form-control" rows="5" placeholder="Votre message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-custom">Envoyer le message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Pied de page -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&copy; 2025 Restaurant Saveurs. Tous droits réservés.</p>
+                        <div class="mt-3">
+                            <a href="https://www.facebook.com/?locale=fr_FR" class="social-icon"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/" class="social-icon"><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/" class="social-icon"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.youtube.com/" class="social-icon"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--bootstrap js-->
+        <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
