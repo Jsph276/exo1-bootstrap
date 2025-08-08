@@ -14,32 +14,14 @@
 }
 
 .badge {
-    font-size: 1rem;
-    font-weight: bold;
     color: var(--text-dark);
     background-color: var(--accent-color);
-    border-radius: 5px;
 }
-
-.logon {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-/* #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../image/hero3.jpg') no-repeat center center/cover;
-    padding: 60px 0;
-    max-width: 100%;
-    color: white;
-} */
 
 .btn {
     background-color: var(--secondary-color);
     color: var(--text-light);
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     text-decoration: none;
     font-size: 1rem;
     transition: background-color 0.3s ease;
@@ -57,26 +39,20 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(135deg, var(--text-dark), var(--secondary-color));
     padding: 1rem 0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.navbar-brand {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--text-light) !important;
-}
-
-.navbar-nav .nav-link {
-    color: var(--text-light) !important;
+.navbar .nav-link {
+    color: var(--text-light);
     font-size: 1.1rem;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover {
-    color: var(--accent-color) !important;
+.navbar .nav-link:hover {
+    color: var(--accent-color);
 }
 
 .hero {
@@ -84,9 +60,6 @@ body {
     background-size: cover;
     background-position: center;
     height: 87vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     color: var(--text-light);
 }
@@ -101,30 +74,12 @@ body {
 
 .hero h1 {
     font-size: 3.5rem;
-    margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .hero p {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-}
-
-.btn-custom {
-    background: var(--secondary-color);
-    border: none;
-    color: var(--text-light);
-    padding: 12px 30px;
-    font-size: 1.1rem;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-}
-
-.btn-custom:hover {
-    background: var(--primary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .section-title {
@@ -202,14 +157,26 @@ body {
 
 .form-control {
     border: none;
-    border-radius: 5px;
     padding: 12px;
-    margin-bottom: 15px;
 }
 
 .form-control:focus {
     border: 2px solid var(--accent-color);
     box-shadow: none;
+}
+
+.btn-custom {
+    background: var(--secondary-color);
+    color: var(--text-light);
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .footer {

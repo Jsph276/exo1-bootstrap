@@ -11,14 +11,14 @@
         <link rel="stylesheet" href="css/style.css" />
         <title>Document</title>
         <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon" />
-        <meta name="description" content=""/>
-        <meta name="keywords" content="portfolio, développeur web, projets web, compétences, HTML, CSS, JavaScript, création de site, développement web, web design, intégration, front-end, back-end, programmation, site internet, expérience professionnelle"/>
+        <meta name="description" content="Saveurs d'Ebène- Restaurant africain alliant traditions et modernité, proposant des plats raffinés, préparés avec des ingrédients frais pour une expérience culinaire inoubliable."/>
+        <meta name="keywords" content="Cuisine africaine, Saveurs authentiques, Plats traditionnels, Recettes exotiques, Attiéké, Grillades, Ingrédients frais, Spécialités africaines, Expérience culinaire, Gastronomie africaine, Voyage des sens, Restaurant chic, Plats raffinés, Dégustation, Saveurs épicées, Plaisir gourmand, tradition et modernité, fait maison, cuisine ivoirienne, menu varié"/>
 
-        <meta property="og:title" content="Mon portfolio de developpeur web"/>
-        <meta property="og:description" content="Découvrez mes projets et compétences en développement web."/>
-        <meta property="og:image" content="img/logo.png" />
+        <meta property="og:title" content="Restaurant Saveurs d'Ebène"/>
+        <meta property="og:description" content="Découvrez vos expert en délices culinaires."/>
+        <meta property="og:image" content="image/logo.pjg" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content=" https://jsph276.github.io/exo-html/index.html"/>
+        <meta property="og:url" content=" https://jsph276.github.io/exo1-bootstrap/index.html"/>
 
         <meta name="robots" content="index, follow" />
     </head>
@@ -28,9 +28,9 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <div class="logon">
+                <div class="logon d-flex align-items-center gap-3">
                     <img src="image/logo.jpg" width="80" class="rounded-circle" alt="">
-                    <span class="badge text-bg-light">SAVEURS D'ÉBÈNE</span>
+                    <span class="badge text-bg-light fw-bold fs-5 rounded-3">SAVEURS D'ÉBÈNE</span>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -69,53 +69,56 @@
         <main>
 
             <!--section hero-->
-            <section id="hero" class="hero">
+            <section id="hero" class="hero d-flex align-items-center justify-content-center">
                 <div class="container">
-                    <h1 class="playwrite display-4">BIENVENUE CHEZ SAVEURS D'ÉBÈNE</h1>
-                    <p class="lead">Votre expert en délices culinaires</p>
-                    <a href="#menu" class="btn">Découvrez notre menu</a>
-                    <a href="#contact" class="btn">Contactez-nous</a>
+                    <h1 class="playwrite display-4 mb-5 fw-bold">BIENVENUE CHEZ SAVEURS D'ÉBÈNE</h1>
+                    <h2 class="lead playwrite display-6 ">Votre expert en délices culinaires</h2>
+                    <p class="lead playwrite mt-4">Des plats qui racontent l'Afrique, célèbre l'authenticité et la richesse des cuisines africaines à travers des plats raffinés, préparés avec passion et des ingrédients de qualité.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="#menu" class="btn btn-lg mt-3">Découvrez notre menu</a>
+                        <a href="#contact" class="btn btn-lg mt-3">Contactez-nous</a>
+                    </div>
                 </div>
             </section>
 
             <!-- Section Menu -->
             <section id="menu" class="py-5">
-                <div class="container">
+                <div class="container mb-3 mt-3">
                     <h2 class="section-title">Notre Menu</h2>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card menu-card">
                                 <div class="card-img-top">
-                                    Image du plat 1 à insérer ici
+                                    <img src="image/plat1.jpg" class="img-fluid mb-5" alt="">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Plat Signature</h5>
-                                    <p class="card-text">Description délicieuse de notre plat phare préparé avec des ingrédients frais et de qualité.</p>
-                                    <span class="price">25€</span>
+                                    <h5 class="card-title mt-3">Poulet yassa</h5>
+                                    <p class="card-text">Le Yassa est un plat originaire du Sénégal et essentiellement constitué de morceaux de viande ou de poisson marinés dans du jus de citron et épices, puis frits, puis mijotés dans une sauce yassa aux oignons.</p>
+                                    <span class="price">7000 FCFA</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card menu-card">
                                 <div class="card-img-top">
-                                    Image du plat 2 à insérer ici
+                                    <img src="image/plat2.webp" class="img-fluid mb-4" alt="">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Spécialité Maison</h5>
-                                    <p class="card-text">Une création unique de notre chef, alliant tradition et innovation pour une expérience gustative inoubliable.</p>
-                            <span class="price">22€</span>
+                                    <h5 class="card-title mt-3">Foutou</h5>
+                                    <p class="card-text">Le foutou est un plat traditionnel ouest-africain, particulièrement populaire en Côte d'Ivoire et au Ghana. Il s'agit d'une pâte faite à partir de tubercules pilés et façonnés en boules, généralement servie avec une sauce.</p>
+                            <span class="price">2500 FCFA</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card menu-card">
                         <div class="card-img-top">
-                            Image du plat 3 à insérer ici
+                            <img src="image/plat3.jpg" class="img-fluid mb-5" alt="">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Délice du Jour</h5>
-                            <p class="card-text">Notre suggestion quotidienne préparée avec les meilleurs produits de saison sélectionnés ce matin.</p>
-                            <span class="price">18€</span>
+                            <h5 class="card-title mt-3">Garba</h5>
+                            <p class="card-text">Le garba est un plat ivoirien, plus précisément abidjanais, composé principalement d'attiéké (semoule de manioc) et de thon frit, souvent accompagné de piment, d'oignon et de tomate.</p>
+                            <span class="price">1500 FCFA</span>
                         </div>
                     </div>
                 </div>
@@ -125,7 +128,7 @@
 
             <!-- Section À propos -->
             <section id="about" class="about-section">
-                <div class="container">
+                <div class="container ">
                     <h2 class="section-title">À Propos de Nous</h2><br>
                     <div class="row align-items-center mt-lg-1 mb-lg-3">
                         <div class="col-md-4">
@@ -135,7 +138,7 @@
                         </div>
                         <div class="col-md-8 ">
                             <h3 class="mb-4" style="color: var(--primary-color);">Notre Histoire</h3>
-                            <p class="lead">Depuis plus de 20 ans, Restaurant Saveurs vous accueille dans un cadre chaleureux et authentique. Notre passion pour la gastronomie et l'accueil à la française fait de chaque repas un moment d'exception.</p>
+                            <p class="lead">Depuis plus de 5 ans, notre restaurant Saveurs vous accueille dans un cadre chaleureux et authentique. Notre passion pour la gastronomie et l'accueil à l'ivoirienne fait de chaque repas un moment d'exception.</p>
                             <p>Notre chef et son équipe sélectionnent chaque jour les meilleurs produits locaux pour vous proposer une cuisine créative qui respecte les traditions tout en innovant. Nous croyons que la gastronomie est un art qui se partage et qui rassemble.</p>
                             <p>Venez découvrir notre univers culinaire dans une ambiance conviviale où chaque détail est pensé pour votre plaisir.</p>
                         </div>
@@ -152,7 +155,7 @@
                             <form>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="Votre nom complet" required>
+                                        <input type="text" class="form-control mb-lg-3" placeholder="Votre nom complet" required>
                                     </div>
                                     <div class="col-md-6">
                                         <input type="email" class="form-control" placeholder="Votre e-mail" required>
@@ -164,7 +167,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-custom">Envoyer le message</button>
+                                    <button type="submit" class="btn btn-custom rounded-3 mt-lg-4">Envoyer le message</button>
                                 </div>
                             </form>
                         </div>
