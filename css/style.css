@@ -22,9 +22,11 @@
 .btn {
     background-color: var(--secondary-color);
     color: var(--text-light);
+    padding: 0.8rem 2rem;
     border: none;
+    border-radius: 25px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: background-color 0.3s ease;
 }
 
@@ -32,6 +34,45 @@
     background-color: var(--primary-color);
     transition: all 0.5s ease;
 }
+
+.btn1 {
+    background-color: var(--text-light);
+    color: var(--primary-color);
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    transition: all 0.5s ease;
+}
+
+@media (max-width:768px) {
+    .btn, 
+    .btn1 {
+        font-size: 1rem; /* Réduction de la taille du texte */
+        padding: 12px 18px; /* Réduction du padding pour éviter que ça prenne trop de place */
+        border-radius: 20px; /* Optionnel : arrondis légèrement réduits */
+    }
+
+    #hero h1 {
+        font-size: 1.8rem; /* Réduction du titre principal */
+    }
+
+    #hero h2 {
+        font-size: 1.3rem; /* Réduction du sous-titre */
+    }
+
+    #hero p {
+        font-size: 1rem; /* Réduction du paragraphe */
+    }
+}
+
 
 body {
     font-family: 'Roboto', serif;
@@ -41,13 +82,13 @@ body {
 
 .navbar {
     background: linear-gradient(135deg, var(--text-dark), var(--secondary-color));
-    padding: 1rem 0;
+    padding: 0.7rem 1.3rem;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .navbar .nav-link {
     color: var(--text-light);
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
@@ -63,14 +104,6 @@ body {
     height: 87vh;
     text-align: center;
     color: var(--text-light);
-}
-
-
-.playwrite {
-  font-family: "Playwrite AU QLD", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
 }
 
 .hero h1 {
